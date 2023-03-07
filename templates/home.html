@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chat with ChatGPT</title>
+    <link rel="stylesheet" type="text/css" href="static/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  </head>
+  <body>
+    <h1>Chat Bot</h1>
+    <div class="chat-container">
+      <div id="chat-log" class="chat-log"></div>
+    </div>
+    <div class="chat-input-container">
+      <textarea id="chat-input" placeholder="Say something..."></textarea>
+      <button id="send-button" type="button" onclick="sendUserInput()">
+        <i class="fas fa-paper-plane"></i> <!-- 使用 Font Awesome 中的飞机图标 -->
+      </button>    
+    </div>
+    <script src="static/script.js"></script>
+  </body>
+</html>
