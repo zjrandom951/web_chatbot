@@ -1,6 +1,7 @@
 import openai
 from flask import Flask, request, jsonify
 
+# add your api_key
 openai.api_key = ""
 model_engine = "gpt-3.5-turbo"
 
